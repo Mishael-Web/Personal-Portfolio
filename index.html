@@ -122,6 +122,11 @@
                 </div>
                 <div class="contact-right">
                     <form action="https://formsubmit.co/d6abf9eecb2565e33c809fdd13a14534" method="POST">
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- Disable captcha -->
+                        <input type="hidden" name="_captcha" value="false">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="text" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
